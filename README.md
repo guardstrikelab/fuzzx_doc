@@ -1,7 +1,7 @@
 # FuzzX Document
 
-项目地址：[github.com/YYC0626/FuzzX_docs](https://github.com/YYC0626/FuzzX_docs)        
-说明文档：[yaoyuchen0626.gitbook.io/fuzzx/](https://yaoyuchen0626.gitbook.io/fuzzx/)        
+项目地址：[github.com/guardstrikelab/fuzzx_doc](https://github.com/guardstrikelab/fuzzx_doc)        
+说明文档：[guardstrikelab.gitbook.io/fuzzx/](https://guardstrikelab.gitbook.io/fuzzx/)        
 
 这是“FuzzX”的说明文档。
 
