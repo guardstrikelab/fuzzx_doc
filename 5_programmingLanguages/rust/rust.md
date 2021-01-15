@@ -1,5 +1,5 @@
 
-## 3.Rust配置教程
+## Rust配置教程
 
 此教程带你用FuzzX对Rust代码进行Fuzz。
 
