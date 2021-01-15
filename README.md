@@ -16,7 +16,7 @@ FuzzX是我们团队开发的一款自动化FUZZ工具。
 
 ## 快速开始
 
-如果你没有使用过`FuzzX`，点击[这里](https://yaoyuchen0626.gitbook.io/fuzzx/get-started)或者查看`quickStart`章节相关内容，能帮助你快速上手。
+如果你没有使用过`FuzzX`，点击[这里](https://guardstrikelab.gitbook.io/fuzzx/2_quickstart/1_quickstart)或者查看`quickStart`章节相关内容，能帮助你快速上手。
 
 
 
