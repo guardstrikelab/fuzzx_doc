@@ -1,4 +1,3 @@
-
 # FuzzX CLI 
 
 doc of Command Line Interface for FuzzX.
@@ -16,26 +15,27 @@ doc of Command Line Interface for FuzzX.
 	$ go version
 	```
 
-2.	拉取命令行程序源码：
+2.	为`FuzzX`创建工作路径：
+
+	```shell
+	$ cd ~/go/src 
+	$ mkdir fuzzx
+	```
+	
+	**我们默认工作路径为`~/go/`,请根据实际情况填写**
+
+3.	拉取命令行程序源码：
 
 	*目前仓库为private*
 
 	```shell
-	$ git clone https://github.com/guardstrikelab/fuzzx_cli.git
+	$ git clone https://github.com/guardstrikelab/fuzzx_cli.git ./fuzzx
 	```
 
-3.	将源码拷贝至`go`工作空间的`src`目录下：
-
-		**默认工作路径为`~/go/`,请根据实际情况填写**
-
-	```shell
-	$ cp fuzzx_cli/ ~/go/src/fuzzx/
-	```
-	
 4.	进入项目文件夹，安装：
 
 	```shell
-	$ cd ~/go/src/fuzzx
+	$ cd fuzzx
 	$ go install
 	```
 
@@ -46,11 +46,12 @@ doc of Command Line Interface for FuzzX.
 	$ export PATH=$PATH:$GOBIN
 	```
 
-6.	测试命令
+6.	输入命令进行测试，根据提示操作即可。
 
 	```shell
 	$ fuzzx
 	```
+
 
 
 注意：5.中添加环境变量命令更换终端后则失效，替换为以下命令则可在当前用户下永久有效。
