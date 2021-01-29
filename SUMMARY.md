@@ -29,6 +29,6 @@
 
 ## 参考
 
-* [配置文件](can-kao/pei-zhi-wen-jian.md)
+* [目标程序配置](can-kao/pei-zhi-wen-jian.md)
 * [命令行工具](can-kao/ming-ling-hang-gong-ju.md)
 
