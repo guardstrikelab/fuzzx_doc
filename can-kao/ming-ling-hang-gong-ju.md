@@ -1,12 +1,10 @@
+---
+description: doc of Command Line Interface for FuzzX.
+---
+
 # 命令行工具
 
-
-
-## FuzzX CLI
-
-doc of Command Line Interface for FuzzX.
-
-### 如何配置
+## 如何配置
 
 测试环境：`Ubuntu:18.04`
 
