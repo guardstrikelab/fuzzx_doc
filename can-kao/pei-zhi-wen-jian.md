@@ -86,9 +86,9 @@ language: c++
 {% endtab %}
 {% endtabs %}
 
-### targets
+### target
 
-**类型: `Array`**
+**类型: `map`**
 
 **是否必须: yes**
 
@@ -99,8 +99,8 @@ language: c++
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
 ```yaml
-targets:
-    - name: target-name
+target:
+    name: target-name
     # --- Other target configuration options omitted
 ```
 {% endtab %}
@@ -120,7 +120,7 @@ targets:
 {% tab title="fuzzx.yaml" %}
 ```yaml
 targets:
-    - name: my-target
+    name: my-target
 ```
 {% endtab %}
 {% endtabs %}
@@ -138,10 +138,10 @@ rust语言版本。
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
 ```yaml
-targets:
-    - name: my-target
-      language: rust
-      version: "1.49.0"
+target:
+    name: my-target
+    language: rust
+    version: 1.49.0
 ```
 {% endtab %}
 {% endtabs %}
@@ -159,9 +159,9 @@ targets:
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
 ```yaml
-targets:
-    - name: my-target
-      setup:
+target:
+    name: my-target
+    setup:
         - sudo apt-get install my-lib
         - CC=$FUZZX_CC CXX=$FUZZX_CXX make my-target
 ```
@@ -182,8 +182,8 @@ targets:
 {% tab title="fuzzx.yaml" %}
 ```yaml
 targets:
-    - name: my-target
-      corpus: ./my-target/corpus
+    name: my-target
+    corpus: ./my-target/corpus
 ```
 {% endtab %}
 {% endtabs %}
@@ -200,26 +200,24 @@ targets:
 {% tab title="C" %}
 指明目标程序如何运行。
 
-#### Usage:
+#### 用法:
 
 ```yaml
-targets:
-    - name: my-target
-      harness:
-        binary: ./target
+target:
+    name: my-target
+    harness: ./target
 ```
 {% endtab %}
 
 {% tab title="C++" %}
 指明如何运行目标程序。
 
-#### Usage:
+#### 用法:
 
 ```yaml
-targets:
-    - name: my-target
-      harness:
-        binary: ./target
+target:
+    name: my-target
+    harness: ./target
 ```
 {% endtab %}
 {% endtabs %}
