@@ -99,10 +99,8 @@ rust语言版本。
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
 ```yaml
-target:
-    name: my-target
-    language: rust
-    version: 1.49.0
+language: rust
+version: 1.49.0
 ```
 {% endtab %}
 {% endtabs %}
@@ -140,7 +138,7 @@ target:
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
 ```yaml
-targets:
+target:
     name: my-target
 ```
 {% endtab %}
