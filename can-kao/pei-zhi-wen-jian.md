@@ -86,6 +86,27 @@ language: c++
 {% endtab %}
 {% endtabs %}
 
+### version
+
+**类型: `string`**
+
+**是否必须: yes \(仅限rust语言\)**
+
+rust语言版本。
+
+#### 用法:
+
+{% tabs %}
+{% tab title="fuzzx.yaml" %}
+```yaml
+target:
+    name: my-target
+    language: rust
+    version: 1.49.0
+```
+{% endtab %}
+{% endtabs %}
+
 ### target
 
 **类型: `map`**
@@ -125,26 +146,7 @@ targets:
 {% endtab %}
 {% endtabs %}
 
-### target.version
-
-**类型: `string`**
-
-**是否必须: yes \(仅限rust语言\)**
-
-rust语言版本。
-
-#### 用法:
-
-{% tabs %}
-{% tab title="fuzzx.yaml" %}
-```yaml
-target:
-    name: my-target
-    language: rust
-    version: 1.49.0
-```
-{% endtab %}
-{% endtabs %}
+### 
 
 ### target.setup
 
