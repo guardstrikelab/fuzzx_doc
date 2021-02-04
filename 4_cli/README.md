@@ -16,6 +16,16 @@ doc of Command Line Interface for FuzzX.
    $ go version
    ```
 
+	
+如果没有，登陆[Golang中文网站](https://golang.google.cn/)下载。
+
+
+别忘记为Go更换国内proxy：
+	```shell
+	$ go env -w GOPROXY=https://goproxy.cn,direct
+	```
+
+
 2. 为`FuzzX`创建工作路径：
 
    ```text
