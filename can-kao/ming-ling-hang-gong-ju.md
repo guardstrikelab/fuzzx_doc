@@ -39,8 +39,7 @@ FuzzX CLI 的本地配置方法
 	
 	如果没有，登陆[Golang中文网站](https://golang.google.cn/)下载。
 	
-
-	**别忘记为Go更换国内proxy：**
+	然后为Go更换国内proxy：
 
 	```shell
 	$ go env -w GOPROXY=https://goproxy.cn,direct
@@ -57,9 +56,7 @@ FuzzX CLI 的本地配置方法
 	
 	**我们默认工作空间路径为`~/go/`,请根据您的实际情况填写**
 
-3.	拉取命令行程序源码：
-
-	*目前仓库为private*
+3.	拉取命令行程序源码：	(*目前仓库为private*)
 
 	```shell
 	$ git clone https://github.com/guardstrikelab/fuzzx_cli.git ./fuzzx
