@@ -42,9 +42,9 @@ FuzzX CLI 的本地配置方法
 
 	**别忘记为Go更换国内proxy：**
 
-		```shell
-		$ go env -w GOPROXY=https://goproxy.cn,direct
-		```
+	```shell
+	$ go env -w GOPROXY=https://goproxy.cn,direct
+	```
 
 
 2.	创建Go语言工作空间：
