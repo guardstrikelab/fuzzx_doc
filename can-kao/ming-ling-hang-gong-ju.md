@@ -45,16 +45,13 @@ FuzzX CLI 的本地配置方法
 	$ go env -w GOPROXY=https://goproxy.cn,direct
 	```
 
+2.	创建Go语言工作空间：\\
 
-2.	创建Go语言工作空间：
-
-	
+	**我们默认工作空间路径为`~/go/`,请根据您的实际情况填写**
 	```shell
 	$ mkdir ~/go/src 
 	$ cd ~/go/src 
 	```
-	
-	**我们默认工作空间路径为`~/go/`,请根据您的实际情况填写**
 
 3.	拉取命令行程序源码：	(*目前仓库为private*)
 
