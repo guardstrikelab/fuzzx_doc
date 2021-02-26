@@ -1,6 +1,6 @@
 # Table of contents
 
-* [FuzzX 帮助](README.md)
+* [FuzzX ](README.md)
 
 ## 开始
 
