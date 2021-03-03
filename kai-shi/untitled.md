@@ -8,3 +8,7 @@
 ---
 
 在本章剩余的几节里，我们为我们的平台目前支持的语言分别提供了样例，来帮助您更快上手。
+
+[c/c++示例](cc++-lou-dong-wa-jue-shi-li)
+
+[rust示例](rust-lou-dong-wa-jue-shi-li)
