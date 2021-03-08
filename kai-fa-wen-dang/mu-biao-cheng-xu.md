@@ -15,9 +15,7 @@ description: 目标程序从FuzzX接收测试用例，运行并报告发现的�
 
 ##  测试方法
 
-{% tabs %}
-
-{% tab title="C" %}
+{% tabs %} {% tab title="C" %}
 要Fuzz您的C语言代码，创建一个使用下述方法的文件：
 
 {% code-tabs %} {% code-tabs-item title="target.c" %}
@@ -32,7 +30,7 @@ int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
 ```
 
 {% endcode-tabs-item %} {% endcode-tabs %}
-
+  
 {% endtab %}
 
 {% tab title="C++" %}
@@ -48,12 +46,10 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
     //字节数组长度不够则返回-1
 }
 ```
-
+  
 {% endcode-tabs-item %} {% endcode-tabs %}
 
-{% endtab %}
-
-{% endtabs %}
+{% endtab %} {% endtabs %}
 
 *您也可以像是在单元测试一样————使用断言查错，反正`FuzzX`会把断言也当成错误。*
 
@@ -75,8 +71,7 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
 目标程序需要在`fuzzx.yaml`文件中用`target`字段描述,以下是我们提供的[c/c++样例](https://gustrikelab.gitbook.io/fuzzx/kai-shi/cc++-lou-dong-wa-jue-shi-li)中的配置详情：
 
 
-{% code-tabs %}{% code-tabs-item title="fuzzx.yaml" %}
-
+{% tabs %} {% tab title="C" %}
 ```yaml
 # --------  全局配置
 language: c++
@@ -88,8 +83,7 @@ target:
   corpus: ./corpus      #语料库路径
   harness: ./target     #生成的可执行文件路径
 ```
-
-{% endcode-tabs-item %}{% endcode-tabs %}
+{% endtab %} {% endtabs %}
 
 
 //
