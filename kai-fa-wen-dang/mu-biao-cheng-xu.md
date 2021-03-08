@@ -61,8 +61,7 @@ _您也可以像是在单元测试一样————使用断言查错，反正`
 
 目标程序需要在`fuzzx.yaml`文件中用`target`字段描述,以下是我们提供的[c/c++样例](https://gustrikelab.gitbook.io/fuzzx/kai-shi/cc++-lou-dong-wa-jue-shi-li)中的配置详情：
 
-{% tabs %}
-{% tab title="fuzzx.yaml" %}
+{% code title="fuzzx.yaml" %}
 ```yaml
 # --------  全局配置
 language: c++
@@ -74,8 +73,7 @@ target:
   corpus: ./corpus      #语料库路径
   harness: ./target     #生成的可执行文件路径
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 // 待补充······ //
 
