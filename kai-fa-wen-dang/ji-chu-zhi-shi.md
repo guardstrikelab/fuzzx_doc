@@ -24,7 +24,7 @@ description: 此页主要介绍一些关于项目和目标程序的问题。
 
 为了便于您的理解，也可以将目标程序想象成不需要自行定义测试数据（`FuzzX`已经提供了）的单元测试。
 
-[点击这里](https://app.gitbook.com/@gustrikelab/s/fuzzx/kai-fa-wen-dang/mu-biao-cheng-xu)可以学习如何配置您自己的目标程序。
+[点击这里](https://gustrikelab.gitbook.io/fuzzx/kai-fa-wen-dang/mu-biao-cheng-xu)可以学习如何配置您自己的目标程序。
 
 
 
