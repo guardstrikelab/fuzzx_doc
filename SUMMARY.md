@@ -6,11 +6,11 @@
 
 * [FuzzX简介](kai-shi/untitled.md)
 * [C/C++ 漏洞挖掘示例](kai-shi/cc++-lou-dong-wa-jue-shi-li/README.md)
-  * [漏洞修复](kai-shi/cc++-lou-dong-wa-jue-shi-li/lou-dong-xiu-fu.md)
   * [项目配置](kai-shi/cc++-lou-dong-wa-jue-shi-li/xiang-mu-pei-zhi.md)
   * [挖掘漏洞](kai-shi/cc++-lou-dong-wa-jue-shi-li/wa-jue-lou-dong.md)
+  * [漏洞修复](kai-shi/cc++-lou-dong-wa-jue-shi-li/lou-dong-xiu-fu.md)
 * [Rust 漏洞挖掘示例](kai-shi/rust-lou-dong-wa-jue-shi-li/README.md)
-  * [漏洞挖掘](kai-shi/rust-lou-dong-wa-jue-shi-li/lou-dong-wa-jue.md)
+  * [挖掘漏洞](kai-shi/rust-lou-dong-wa-jue-shi-li/lou-dong-wa-jue.md)
 
 ## 开发文档
 
