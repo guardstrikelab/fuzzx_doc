@@ -10,6 +10,7 @@
 
 每个项目的根目录下都需要放置一个`fuzzx.yaml`文件，该文件定义了如何搭建环境和如何进行`fuzzing`。我们给出在`c/c++`示例中的配置文件：
 
+{% code title="fuzzx.yaml" %}
 ```yaml
 base: ubuntu:18.04
 environment:
@@ -27,6 +28,7 @@ target:
   corpus: ./corpus
   harness: ./target
 ```
+{% endcode %}
 
 `base`字段声明了为您运行代码的系统环境：`ubuntu:18.04`； `environment`字段声明了您运行前需要设置的环境变量； `setup`字段声明了您的项目需要安装的依赖； `language`字段声明了您所使用的编程语言； `target`字段内的各项信息描述了您的`target`，`name`为名称，`setup`为编译和插桩指令，`corpus`为语料库路径，`harness`为插桩后生成的可执行文件路径。
 
