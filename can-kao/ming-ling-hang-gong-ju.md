@@ -1,5 +1,5 @@
 ---
-description: doc of Command Line Interface for FuzzX.
+description: 该命令行工具需要安装在用户的开发机器上，以便与FuzzX平台配合进行上传前的监测和发现缺陷后的修复缺陷过程。
 ---
 
 # 命令行工具
