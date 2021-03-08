@@ -7,7 +7,7 @@
 `target.cc`
 ```
 
-`fuzzx.yaml`文件（后称`yaml`文件）为项目的配置文件，`fuzzx`将按照此文件的指示来执行您规定的`fuzz`任务。关于此文件的编写，请参考[这里](can-kao/pei-zhi-wen-jian.md)。
+`fuzzx.yaml`文件（后称`yaml`文件）为项目的配置文件，`fuzzx`将按照此文件的指示来执行您规定的`fuzz`任务。
 
 `target.cc`文件（后称`target`文件）内包含您对测试工具的初始化选项以及您需要测试的函数的描述。
 
