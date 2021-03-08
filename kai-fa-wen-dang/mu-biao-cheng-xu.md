@@ -34,7 +34,7 @@ int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
 {% endtab %}
 
 {% tab title="C++" %}
-要Fuzz您的C语言代码，创建一个使用下述方法的文件：
+要Fuzz您的C++语言代码，创建一个使用下述方法的文件：
 
 {% code-tabs %} {% code-tabs-item title="target.cc" %}
 
