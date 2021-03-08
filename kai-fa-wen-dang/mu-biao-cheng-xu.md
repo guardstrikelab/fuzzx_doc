@@ -21,6 +21,7 @@ description: 目标程序从FuzzX接收测试用例，运行并报告发现的�
 要Fuzz您的C语言代码，创建一个使用下述方法的文件：
 
 {% code-tabs %} {% code-tabs-item title="target.c" %}
+
 ```c
 int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
     //第一步：读取所需的数据类型
@@ -29,6 +30,7 @@ int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
     //字节数组长度不够则返回-1
 }
 ```
+
 {% endcode-tabs-item %} {% endcode-tabs %}
 
 {% endtab %}
@@ -37,6 +39,7 @@ int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
 要Fuzz您的C语言代码，创建一个使用下述方法的文件：
 
 {% code-tabs %} {% code-tabs-item title="target.cc" %}
+
 ```cpp
 extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
     //第一步：读取所需的数据类型
@@ -45,7 +48,8 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
     //字节数组长度不够则返回-1
 }
 ```
-% endcode-tabs-item %} {% endcode-tabs %}
+
+{% endcode-tabs-item %} {% endcode-tabs %}
 
 {% endtab %}
 
@@ -70,7 +74,9 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
 
 目标程序需要在`fuzzx.yaml`文件中用`target`字段描述,以下是我们提供的[c/c++样例](https://gustrikelab.gitbook.io/fuzzx/kai-shi/cc++-lou-dong-wa-jue-shi-li)中的配置详情：
 
+
 {% code-tabs %}{% code-tabs-item title="fuzzx.yaml" %}
+
 ```yaml
 # --------  全局配置
 language: c++
@@ -82,6 +88,7 @@ target:
   corpus: ./corpus      #语料库路径
   harness: ./target     #生成的可执行文件路径
 ```
+
 {% endcode-tabs-item %}{% endcode-tabs %}
 
 
