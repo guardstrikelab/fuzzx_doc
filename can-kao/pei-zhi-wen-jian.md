@@ -202,11 +202,13 @@ targets:
 
 #### 用法:
 
+{% code title="fuzzx.yaml" %}
 ```yaml
 target:
     name: my-target
     harness: ./target
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="C++" %}
@@ -214,11 +216,13 @@ target:
 
 #### 用法:
 
+{% code title="fuzzx.yaml" %}
 ```yaml
 target:
     name: my-target
     harness: ./target
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
