@@ -20,7 +20,7 @@ fuzzx build
 
 当您把一切都准备好了，下面就可以把代码推送到`FuzzX`了！ 我们推荐您将代码提交到您的`GitHub`仓库。
 
-提交完代码，请移步[FuzzX主页](http://fuzzx.guardstrike.com)。
+提交完代码，请移步[FuzzX主](http://fuzzx.guardstrike.com)开始您的Fuzz！
 
 具体的`FuzzX`平台介绍请您[点击这里](https://gustrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie)
 
