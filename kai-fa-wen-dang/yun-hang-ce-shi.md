@@ -22,7 +22,5 @@ fuzzx build
 
 提交完代码，请移步[FuzzX主页](http://fuzzx.guardstrike.com)。
 
-点击GitHub框后授权登录，即可看到如下界面：
-
-【此处有图】
+具体的`FuzzX`平台介绍请您[点击这里](https://gustrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie)
 
