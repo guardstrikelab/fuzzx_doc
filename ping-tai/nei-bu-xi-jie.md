@@ -22,9 +22,9 @@ description: 此页是关于FuzzX的页面的介绍
 
 选完后可点击“完成提交”。
 
-4
+4.任务列表，显示已创建的任务
 
-
+![&#x4EFB;&#x52A1;&#x5217;&#x8868;](../.gitbook/assets/ren-wu-lie-biao-.png)
 
 5
 
