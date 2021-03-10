@@ -20,7 +20,6 @@
 * [项目](kai-fa-wen-dang/xiang-mu.md)
 * [目标程序](kai-fa-wen-dang/mu-biao-cheng-xu.md)
 * [运行测试](kai-fa-wen-dang/yun-hang-ce-shi.md)
-* [迁移到FuzzX](kai-fa-wen-dang/qian-yi-dao-fuzzx.md)
 
 ## 平台
 

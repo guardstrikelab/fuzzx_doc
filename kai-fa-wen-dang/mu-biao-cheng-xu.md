@@ -4,8 +4,6 @@ description: 目标程序从FuzzX接收测试用例，运行并报告发现的�
 
 # 目标程序
 
-> 此页告诉您如何为FuzzX编写新的目标程序。如果您已经有了LibFuzzer的目标程序，请忽略此页，直接看[这里](https://gustrikelab.gitbook.io/fuzzx/kai-fa-wen-dang/qian-yi-dao-fuzzx)
-
 每个目标程序包含两部分：
 
 1. 一个可以让`FuzzX`进行传参的方法————像是单元测试框架。
