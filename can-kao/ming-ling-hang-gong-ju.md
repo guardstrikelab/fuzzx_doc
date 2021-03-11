@@ -8,17 +8,29 @@ FuzzX CLI 的本地配置方法
 
 测试环境：`Ubuntu:18.04`
 
-## 1.直接使用可执行文件\(Ubuntu:18.04\)
+## 1.直接使用可执行文件（推荐）
 
 1. 从代码仓库下载编译过后的二进制文件
 2. 将该二进制文件放在工程项目的根目录下\(即与`fuzzx.yaml`处于同一目录\)
 3. 在该目录执行如下命令即可看到 `fuzzx` 的提示：
 
-   ```text
-   $ ./fuzzx
-   ```
+{% tabs %}
+{% tab title="Ubuntu" %}
+```
+$ mv fuzzx_for_Ubuntu fuzzx
+$ ./fuzzx
+```
+{% endtab %}
 
-4. 务必在执行每句代码时在`fuzzx`之前加上`./`来指名您要运行的是放在当前目录下的`fuzzx`文件。
+{% tab title="MacOS" %}
+```
+$ mv fuzzx_for_MacOS fuzzx
+$ ./fuzzx
+```
+{% endtab %}
+{% endtabs %}
+
+> 务必在执行每句代码时在`fuzzx`之前加上`./`来指明您要运行的是放在当前目录下的`fuzzx`文件。
 
 ## 2.源码编译
 
