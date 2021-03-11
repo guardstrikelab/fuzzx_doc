@@ -4,11 +4,11 @@ description: 该命令行工具需要安装在用户的开发机器上，以便�
 
 # 命令行工具
 
-FuzzX CLI 的本地配置方法
+## FuzzX CLI 的本地配置
 
 测试环境：`Ubuntu:18.04`
 
-## 1.直接使用可执行文件（推荐）
+### 1. 直接使用可执行文件（推荐）
 
 1. 从代码仓库下载编译过后的二进制文件
 2. 将该二进制文件放在工程项目的根目录下\(即与`fuzzx.yaml`处于同一目录\)
@@ -16,7 +16,7 @@ FuzzX CLI 的本地配置方法
 
 {% tabs %}
 {% tab title="Ubuntu" %}
-```
+```bash
 $ mv fuzzx_for_Ubuntu fuzzx
 $ ./fuzzx
 ```
@@ -32,7 +32,7 @@ $ ./fuzzx
 
 > 务必在执行每句代码时在`fuzzx`之前加上`./`来指明您要运行的是放在当前目录下的`fuzzx`文件。
 
-## 2.源码编译
+### 2.源码编译
 
 1. 确保你的机器有Golang语言环境:
 
@@ -85,9 +85,55 @@ $ ./fuzzx
 
 注意：5.中添加环境变量命令更换终端后则失效，替换为以下命令则可在当前用户下永久有效。
 
-```text
+```bash
 $ echo "export GOBIN=~/go/bin" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOBIN" >> ~/.bashrc
 $ source ~/.bashrc
 ```
+
+
+
+## FuzzX CLI的使用
+
+> 默认您直接使用二进制文件，如果您是自行从源码编译，请在执行命令前添加环境变量，并去掉命令中的\`./\`。
+
+### login
+
+使用该命令进行身份确认，完成`login`的用户才能使用CLI的其他命令
+
+具体命令如下：
+
+```bash
+$ ./fuzzx login <id> <key>
+```
+
+_&lt;id&gt; 和 &lt;key&gt; 就是您在`FuzzX`平台的_[_个人信息_](https://gustrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie#8-yong-hu-xin-xi)_处所看到的。_
+
+### logout
+
+登出功能
+
+```bash
+$ ./fuzzx logout
+```
+
+### validate
+
+当您在配置项目时，使用该命令可以验证本地编辑的`fuzzx.yaml`文件的正确性：
+
+```bash
+$ ./fuzzx validate
+```
+
+### build
+
+该命令用于在本地测试您的项目是否可以按照您的配置正常进行编译：
+
+```text
+$ ./fuzzx build
+```
+
+
+
+待补充。。。
 
