@@ -8,7 +8,7 @@ description: 此页主要介绍一些关于项目和目标程序的问题。
 
 一个项目应该是一个可以连接到`FuzzX`平台的自主更新的代码库（例如，一个项目可以是一个在`GitHub`平台上托管的代码仓库），加上这样一个限制条件的目的是：确保我们总是对最近提交的的代码进行`Fuzzing`。
 
-[点击这里](https://gustrikelab.gitbook.io/fuzzx/kai-fa-wen-dang/xiang-mu)一栏来学习如何将您的代码连接到`FuzzX`。
+[点击这里](https://gustrikelab.gitbook.io/fuzzx/kai-fa-wen-dang/xiang-mu)来学习如何将您的代码连接到`FuzzX`。
 
 ## 目标程序
 
