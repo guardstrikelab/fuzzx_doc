@@ -102,21 +102,9 @@ $ cd ..
 $ $CXX -g ./target.cc -fsanitize=address,fuzzer openssl/libssl.a  openssl/libcrypto.a -std=c++17 -DCERT_PATH=\"$PWD/runtime\" -I openssl/include -lstdc++fs -ldl -lstdc++ -o ./target
 ```
 
-./target.cc 即为我们在目录下已经写好的目标文件
+`./target.cc` 即为我们在目录下已经写好的目标文件；`-fsanitize=address,fuzzer` 如前所说，开启了libFuzzer和 地址分析 ；`openssl/libssl.a  openssl/libcrypto.a` 静态库的引用路径；`-std=c++17` 定义编译语言标准；`-I openssl/include` 将目录添加到clang++的搜索目录里；`-lstdc++fs -ldl -lstdc++` 为引用的标准库；`-o ./target` 生成的可执行文件保存至当前目录下命名为`target`。
 
--fsanitize=address,fuzzer 如前所说，开启了libFuzzer和 地址分析 
-
-openssl/libssl.a  openssl/libcrypto.a 静态库的引用路径
-
--std=c++17 定义编译语言标准
-
--I openssl/include 将目录添加到clang++的搜索目录里
-
--lstdc++fs -ldl -lstdc++ 为引用的标准库
-
--o ./target 生成的可执行文件保存至当前目录下命名为target
-
-
+其实就相当于在您正常编译target.cc的基础上，添加了`-g` 和`-fsanitize=address,fuzzer`。
 
 
 
