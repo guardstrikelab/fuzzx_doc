@@ -106,6 +106,18 @@ $ $CXX -g ./target.cc -fsanitize=address,fuzzer openssl/libssl.a  openssl/libcry
 
 -fsanitize=address,fuzzer 如前所说，开启了libFuzzer和 地址分析 
 
+openssl/libssl.a  openssl/libcrypto.a 静态库的引用路径
+
+-std=c++17 定义编译语言标准
+
+-I openssl/include 将目录添加到clang++的搜索目录里
+
+-lstdc++fs -ldl -lstdc++ 为引用的标准库
+
+-o ./target 生成的可执行文件保存至当前目录下命名为target
+
+
+
 
 
 做完这些准备工作之后，把项目提交到`FuzzX`，它就会自行检测您的目标程序了。
