@@ -16,5 +16,5 @@ fuzzx validate
 
 提交完代码，请移步[FuzzX主页](http://fuzzx.guardstrike.com)开始您的Fuzz！
 
-具体的`FuzzX`平台介绍请您[点击这里](https://gustrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie)
+具体的`FuzzX`平台介绍请您[点击这里](https://guardstrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie)
 
