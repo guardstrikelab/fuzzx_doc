@@ -105,7 +105,7 @@ $ source ~/.bashrc
 $ ./fuzzx login <id> <key>
 ```
 
-_&lt;id&gt; 和 &lt;key&gt; 就是您在`FuzzX`平台的_[_个人信息_](https://gustrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie#8-yong-hu-xin-xi)_处所看到的。_
+_&lt;id&gt; 和 &lt;key&gt; 就是您在`FuzzX`平台的_[_个人信息_](https://guardstrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie#8-yong-hu-xin-xi)_处所看到的。_
 
 ### logout
 
