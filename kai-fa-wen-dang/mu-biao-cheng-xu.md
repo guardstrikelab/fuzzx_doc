@@ -53,6 +53,8 @@ _您也可以像是在单元测试一样————使用断言查错，反正`
 
 而我们的`FuzzX`将会马上意识到数组长度不够并及时做出调整！
 
+FuzzTarget写法可以[参考这里](https://llvm.org/docs/LibFuzzer.html#fuzz-target)。
+
 ## 配置方法
 
 > 此部分仅提供一部分参考，具体教程，请您[点击这里](https://guardstrikelab.gitbook.io/fuzzx/can-kao/pei-zhi-wen-jian)。
