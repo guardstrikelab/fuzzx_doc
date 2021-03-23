@@ -8,7 +8,7 @@
    git clone https://github.com/guardstrikelab/fuzzx_cpp_demo.git
    ```
 
-2. 然后请您按照提示配置好我们的[本地命令行工具](../../can-kao/ming-ling-hang-gong-ju)。
+2. 然后请您按照提示配置好我们的[本地命令行工具](https://guardstrikelab.gitbook.io/fuzzx/can-kao/ming-ling-hang-gong-ju)。
 
    **可执行文件`fuzzx`应该放在`fuzzx_cpp_demo`文件夹内。**
 

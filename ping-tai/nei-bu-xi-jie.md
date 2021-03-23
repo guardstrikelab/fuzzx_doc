@@ -12,7 +12,7 @@ description: 此页是关于FuzzX的页面的介绍
 
 ## 2.个人主页
 
-![&#x4E2A;&#x4EBA;&#x4E3B;&#x9875;](../.gitbook/assets/zhu-ye-%20%281%29.png)
+![&#x4E2A;&#x4EBA;&#x4E3B;&#x9875;](../.gitbook/assets/zhu-ye-%20%281%29%20%281%29.png)
 
 此页是用户初次登录后看到的页面，主页内容包含新建项目按钮、项目列表；页面右上角有`FuzzX`文档、设置以及个人信息选项。
 
@@ -36,7 +36,7 @@ description: 此页是关于FuzzX的页面的介绍
 
 ## 5.任务详情
 
-![&#x4EFB;&#x52A1;&#x8BE6;&#x60C5;](../.gitbook/assets/ren-wu-xiang-qing-%20%281%29.png)
+![&#x4EFB;&#x52A1;&#x8BE6;&#x60C5;](../.gitbook/assets/ren-wu-xiang-qing-%20%281%29%20%281%29.png)
 
 点击任务列表中的某一条目即可跳转到该任务的具体信息。
 

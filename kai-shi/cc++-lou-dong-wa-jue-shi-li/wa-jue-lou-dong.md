@@ -10,7 +10,7 @@
 
 2.点击“创建新项目”；
 
-![FuzzX&#x7528;&#x6237;&#x9996;&#x9875;](../../.gitbook/assets/zhu-ye-.png)
+![FuzzX&#x7528;&#x6237;&#x9996;&#x9875;](../../.gitbook/assets/zhu-ye-%20%281%29.png)
 
 3.依次选择用户名、项目名、分支后，点击”下一步“；
 
@@ -26,7 +26,7 @@
 
 6.点击任务列表中的该条目，您可以看到一些更具体的具体细节：
 
-![&#x4EFB;&#x52A1;&#x8BE6;&#x60C5;](../../.gitbook/assets/ren-wu-xiang-qing-.png)
+![&#x4EFB;&#x52A1;&#x8BE6;&#x60C5;](../../.gitbook/assets/ren-wu-xiang-qing-%20%281%29.png)
 
 7.点击具体的缺陷条目，即可看到其具体信息：
 
