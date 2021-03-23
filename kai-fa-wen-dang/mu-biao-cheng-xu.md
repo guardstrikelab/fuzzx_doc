@@ -55,9 +55,9 @@ _您也可以像是在单元测试一样————使用断言查错，反正`
 
 ## 配置方法
 
-> 此部分仅提供一部分参考，具体教程，请您[点击这里](https://gustrikelab.gitbook.io/fuzzx/can-kao/pei-zhi-wen-jian)。
+> 此部分仅提供一部分参考，具体教程，请您[点击这里](https://guardstrikelab.gitbook.io/fuzzx/can-kao/pei-zhi-wen-jian)。
 
-目标程序需要在`fuzzx.yaml`文件中用`target`字段描述,以下是我们提供的[c/c++样例](https://gustrikelab.gitbook.io/fuzzx/kai-shi/cc++-lou-dong-wa-jue-shi-li)中的配置详情：
+目标程序需要在`fuzzx.yaml`文件中用`target`字段描述,以下是我们提供的[c/c++样例](https://guardstrikelab.gitbook.io/fuzzx/kai-shi/cc++-lou-dong-wa-jue-shi-li)中的配置详情：
 
 {% code title="fuzzx.yaml" %}
 ```yaml
@@ -77,5 +77,5 @@ target:
 
 做完这些准备工作之后，把项目提交到`FuzzX`，它就会自行检测您的目标程序了。
 
-了解具体操作，请[点击这里](https://gustrikelab.gitbook.io/fuzzx/kai-fa-wen-dang/yun-hang-ce-shi)。
+了解具体操作，请[点击这里](https://guardstrikelab.gitbook.io/fuzzx/kai-fa-wen-dang/yun-hang-ce-shi)。
 
