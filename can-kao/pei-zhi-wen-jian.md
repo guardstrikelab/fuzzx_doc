@@ -6,7 +6,7 @@ description: 为了让 FuzzX 知晓如何编译和运行目标程序，需要用
 
 下文详细描述了 **`fuzzx.yaml`** 文件的配置格式，各个字段用法及作用。
 
-### base
+## base
 
 **类型: `string`**
 
@@ -16,7 +16,7 @@ description: 为了让 FuzzX 知晓如何编译和运行目标程序，需要用
 
 代码运行操作系统环境，FuzzX使用 docker 镜像作为代码运行环境，目前仅支持 `ubuntu:18.04` 。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -26,7 +26,7 @@ base: ubuntu:18.04
 {% endtab %}
 {% endtabs %}
 
-### environment
+## environment
 
 **类型: `Array`**
 
@@ -34,7 +34,7 @@ base: ubuntu:18.04
 
 目标程序运行需要的环境变量。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -46,7 +46,7 @@ environment:
 {% endtab %}
 {% endtabs %}
 
-### setup
+## setup
 
 **类型: `Array`**
 
@@ -54,7 +54,7 @@ environment:
 
 目标程序编译运行前需要运行的命令，或者需要安装的依赖。
 
-#### Usage:
+### Usage:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -66,7 +66,7 @@ setup:
 {% endtab %}
 {% endtabs %}
 
-### language
+## language
 
 **类型: `string`**
 
@@ -76,7 +76,7 @@ setup:
 
 目标程序语言，目前仅支持c，c++，rust 。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -86,7 +86,7 @@ language: c++
 {% endtab %}
 {% endtabs %}
 
-### version
+## version
 
 **类型: `string`**
 
@@ -94,7 +94,7 @@ language: c++
 
 rust语言版本。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -105,7 +105,7 @@ version: 1.49.0
 {% endtab %}
 {% endtabs %}
 
-### target
+## target
 
 **类型: `map`**
 
@@ -113,7 +113,7 @@ version: 1.49.0
 
 目标程序配置参数
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -125,7 +125,7 @@ target:
 {% endtab %}
 {% endtabs %}
 
-### target.name
+## target.name
 
 **类型: `string`**
 
@@ -133,7 +133,7 @@ target:
 
 目标程序命名，命名规则为：仅可包含字母，数字和短横线。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -144,9 +144,7 @@ target:
 {% endtab %}
 {% endtabs %}
 
-### 
-
-### target.setup
+## target.setup
 
 **类型: `Array`**
 
@@ -154,7 +152,7 @@ target:
 
 用于告诉FuzzX如何编译目标程序的命令列表。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -168,7 +166,7 @@ target:
 {% endtab %}
 {% endtabs %}
 
-### target.corpus
+## target.corpus
 
 **类型: `string`**
 
@@ -176,7 +174,7 @@ target:
 
 目标程序运行的初始化测试用例所在目录，可以不设置，但是强烈建议根据目标程序实际情况提供初始化用例，这样可以提高模糊测试运行效率。
 
-#### 用法:
+### 用法:
 
 {% tabs %}
 {% tab title="fuzzx.yaml" %}
@@ -188,7 +186,7 @@ targets:
 {% endtab %}
 {% endtabs %}
 
-### target.harness
+## target.harness
 
 **类型: `Map`**
 
@@ -200,7 +198,7 @@ targets:
 {% tab title="C" %}
 指明目标程序如何运行。
 
-#### 用法:
+### 用法:
 
 {% code title="fuzzx.yaml" %}
 ```yaml
@@ -214,7 +212,7 @@ target:
 {% tab title="C++" %}
 指明如何运行目标程序。
 
-#### 用法:
+### 用法:
 
 {% code title="fuzzx.yaml" %}
 ```yaml

@@ -22,7 +22,7 @@
 
 5.完成后，您可看到个人主页的任务列表里已经添加了您刚才指定的项目；
 
-![&#x4EFB;&#x52A1;&#x5217;&#x8868;](../../.gitbook/assets/ren-wu-lie-biao-.png)
+![&#x4EFB;&#x52A1;&#x5217;&#x8868;](../../.gitbook/assets/ren-wu-lie-biao-%20%281%29.png)
 
 6.点击任务列表中的该条目，您可以看到一些更具体的具体细节：
 
@@ -30,11 +30,7 @@
 
 7.点击具体的缺陷条目，即可看到其具体信息：
 
-![&#x7F3A;&#x9677;&#x4FE1;&#x606F;](../../.gitbook/assets/que-xian-xiang-qing-.png)
-
-
+![&#x7F3A;&#x9677;&#x4FE1;&#x606F;](../../.gitbook/assets/que-xian-xiang-qing-%20%281%29.png)
 
 在下一节您将看到如何修复漏洞。
-
-
 

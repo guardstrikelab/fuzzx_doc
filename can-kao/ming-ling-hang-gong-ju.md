@@ -23,7 +23,7 @@ $ ./fuzzx
 {% endtab %}
 
 {% tab title="MacOS" %}
-```
+```text
 $ mv fuzzx_for_MacOS fuzzx
 $ ./fuzzx
 ```
@@ -91,8 +91,6 @@ $ echo "export PATH=$PATH:$GOBIN" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-
-
 ## FuzzX CLI的使用
 
 > 默认您直接使用二进制文件，如果您是自行从源码编译，请在执行命令前添加环境变量，并去掉命令中的\`./\`。
@@ -132,8 +130,6 @@ $ ./fuzzx validate
 ```text
 $ ./fuzzx build
 ```
-
-
 
 待补充。。。
 

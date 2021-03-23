@@ -10,7 +10,7 @@
 
 2. 然后请您按照提示配置好我们的[本地命令行工具](https://gustrikelab.gitbook.io/fuzzx/can-kao/ming-ling-hang-gong-ju)。
 
-   **可执行文件`fuzzx`应该放在`fuzzx_cpp_demo`文件夹内（Ubuntu：18.04）**
+   **可执行文件`fuzzx`应该放在`fuzzx_cpp_demo`文件夹内。**
 
 3. 点击`fuzzx`平台的个人中心（页面右上角），您可以看到您的`id`和`key`。在终端输入如下格式的指令：
 
