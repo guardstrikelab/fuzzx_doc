@@ -18,19 +18,21 @@ description: 该命令行工具需要安装在用户的开发机器上，以便�
 {% tab title="Ubuntu" %}
 ```bash
 $ mv fuzzx_for_Ubuntu fuzzx
-$ ./fuzzx
+$ PATH=$PWD:$PATH
+$ fuzzx
 ```
 {% endtab %}
 
 {% tab title="MacOS" %}
-```text
+```bash
 $ mv fuzzx_for_MacOS fuzzx
-$ ./fuzzx
+$ PATH=$PWD:$PATH
+$ fuzzx
 ```
 {% endtab %}
 {% endtabs %}
 
-> 务必在执行每句代码时在`fuzzx`之前加上`./`来指明您要运行的是放在当前目录下的`fuzzx`文件。
+> 每开启一个新终端，都不要忘记第二行的添加环境变量，不添加环境变量系统是无法找到fuzzx的。
 
 ### 2.源码编译
 
@@ -102,7 +104,7 @@ $ source ~/.bashrc
 具体命令如下：
 
 ```bash
-$ ./fuzzx login <id> <key>
+$ fuzzx login <id> <key>
 ```
 
 _&lt;id&gt; 和 &lt;key&gt; 就是您在`FuzzX`平台的_[_个人信息_](https://guardstrikelab.gitbook.io/fuzzx/ping-tai/nei-bu-xi-jie#8-yong-hu-xin-xi)_处所看到的。_
@@ -112,7 +114,7 @@ _&lt;id&gt; 和 &lt;key&gt; 就是您在`FuzzX`平台的_[_个人信息_](https:
 登出功能
 
 ```bash
-$ ./fuzzx logout
+$ fuzzx logout
 ```
 
 ### validate
@@ -120,7 +122,7 @@ $ ./fuzzx logout
 当您在配置项目时，使用该命令可以验证本地编辑的`fuzzx.yaml`文件的正确性：
 
 ```bash
-$ ./fuzzx validate
+$ fuzzx validate
 ```
 
 ### build
@@ -130,6 +132,6 @@ $ ./fuzzx validate
 （在bug详情页可以看到复现所需的命令）
 
 ```bash
-$ ./fuzzx build <bugkey>
+$ fuzzx build <bugkey>
 ```
 
