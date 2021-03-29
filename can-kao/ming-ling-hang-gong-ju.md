@@ -127,11 +127,19 @@ $ fuzzx validate
 
 ### build
 
+该命令在本地编译、插桩您的项目：
+
+```bash
+$ fuzzx build
+```
+
+### reproduce
+
 该命令用于在本地重现出我们在服务端提供给您的错误信息：
 
 （在bug详情页可以看到复现所需的命令）
 
 ```bash
-$ fuzzx build <bugkey>
+$ fuzzx reproduce <BugKey>
 ```
 
