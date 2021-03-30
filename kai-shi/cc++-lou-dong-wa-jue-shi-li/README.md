@@ -20,7 +20,7 @@
 
 {% page-ref page="lou-dong-xiu-fu.md" %}
 
-
+以上就是使用FuzzX平台进行漏洞挖掘与修复的全部流程了。了解更多请看开发文档部分。
 
 
 
