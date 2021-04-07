@@ -18,6 +18,7 @@ description: 该命令行工具需要安装在用户的开发机器上，以便�
 {% tab title="Ubuntu" %}
 ```bash
 $ mv fuzzx_for_Ubuntu fuzzx
+$ chmod +x fuzzx
 $ PATH=$PWD:$PATH
 $ fuzzx
 ```
@@ -26,6 +27,7 @@ $ fuzzx
 {% tab title="MacOS" %}
 ```bash
 $ mv fuzzx_for_MacOS fuzzx
+$ chmod +x fuzzx
 $ PATH=$PWD:$PATH
 $ fuzzx
 ```
