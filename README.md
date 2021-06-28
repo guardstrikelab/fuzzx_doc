@@ -1,6 +1,5 @@
 # FuzzX
 
-<video id="video" controls="" preload="none">
-<source id="mp4" src="https://leitests1.oss-cn-hangzhou.aliyuncs.com/202106281159.mp4" type="video/mp4">
-</video>
+<video src="https://leitests1.oss-cn-hangzhou.aliyuncs.com/202106281159.mp4" controls="controls" width="100%" height="auto"/>
+
 
