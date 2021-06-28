@@ -135,4 +135,3 @@ $ fuzzx validate
 $ fuzzx build <BugKey>
 ```
 
-
